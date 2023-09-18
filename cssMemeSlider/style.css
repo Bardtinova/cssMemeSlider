@@ -65,7 +65,7 @@
     align-items: end;
     display: flex;
     color: white;
-    font-size: 1.5rem;
+    font-size: 0.2rem;
 }
 
 .control-wrapper-slider {
@@ -109,51 +109,51 @@ input {
 }
 #s1:checked ~ .control-wrapper > .control > .control-wrapper-slider.label1 {
   background-color:black;
-  border: 2px solid  #1a74bc;
+  border: 0.2rem solid  #1a74bc;
 }
 #s1:checked ~ .control-wrapper > .control:hover .control-wrapper-slider.label1 {
     background-color:black;
-    border: 2px solid  white;
+    border: 0.2rem solid  white;
 }
 .l1:active .control-wrapper-slider.label1{
     background-color:black;
-    border: 2px solid  white;
+    border: 0.2rem solid  white;
 }
 #s2:checked ~ .control-wrapper > .control > .control-wrapper-slider.label2 {
     background-color:black;
-    border: 2px solid  #1a74bc;;
+    border: 0.2rem solid  #1a74bc;;
 }
 #s2:checked ~ .control-wrapper > .control:hover .control-wrapper-slider.label2 {
     background-color:black;
-    border: 2px solid  white;
+    border: 0.2rem solid  white;
 }
 .l2:active .control-wrapper-slider.label2 {
     background-color:black;
-    border: 2px solid  white;
+    border: 0.2rem solid  white;
 }
 #s3:checked ~ .control-wrapper > .control > .control-wrapper-slider.label3 {
 background-color:black;
-border: 2px solid  #1a74bc;;
+border: 0.2rem solid  #1a74bc;;
 }
 #s3:checked ~ .control-wrapper > .control:hover .control-wrapper-slider.label3 {
     background-color:black;
-    border: 2px solid  white;
+    border: 0.2rem solid  white;
 }
 .l3:active .control-wrapper-slider.label3 {
     background-color:black;
-    border: 2px solid  white;
+    border: 0.2rem solid  white;
 }
 #s4:checked ~ .control-wrapper > .control > .control-wrapper-slider.label4 {
 background-color:black;
-border: 2px solid  #1a74bc;;
+border: 0.2rem solid  #1a74bc;;
 } 
 #s4:checked ~ .control-wrapper > .control:hover .control-wrapper-slider.label4 {
     background-color:black;
-    border: 2px solid  white;
+    border: 0.2rem solid  white;
 }  
 .l4:active .control-wrapper-slider.label4{
     background-color:black;
-    border: 2px solid  white;
+    border: 0.2rem solid  white;
 }
 .control:hover .control-wrapper-slider {
     background-color: white;
@@ -164,7 +164,7 @@ border: 2px solid  #1a74bc;;
    
 }
 
-@media(max-width: 992px) {
+@media(max-width: 990.2rem) {
     .control-wrapper {
         margin-top: -3rem;
         width: 22vw;
